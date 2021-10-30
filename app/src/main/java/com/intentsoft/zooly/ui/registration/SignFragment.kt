@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.intentsoft.zooly.R
 import com.intentsoft.zooly.ui.MainActivity
 import kotlinx.android.synthetic.main.fragment_sign.*
@@ -30,6 +31,9 @@ class SignFragment : Fragment() {
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }
+        }
+        tvSignUp.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_signFragment_to_sigupFragment)
         }
     }
 

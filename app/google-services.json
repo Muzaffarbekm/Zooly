@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879287503031",
+    "project_id": "zooly-616f7",
+    "storage_bucket": "zooly-616f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879287503031:android:7831b5e82a8d70c3cf2532",
+        "android_client_info": {
+          "package_name": "com.intentsoft.zooly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879287503031-ujp8mb31s5o4e65bdiegoa03jlupoado.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknR4SrT6v90WcjK17KG-WOpzMWeMGiNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879287503031-ujp8mb31s5o4e65bdiegoa03jlupoado.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

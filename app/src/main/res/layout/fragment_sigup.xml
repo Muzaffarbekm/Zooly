@@ -4,20 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
     tools:context=".ui.registration.SigupFragment">
 
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sig up"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/back_24"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.159" />
+        app:layout_constraintVertical_bias="0.457" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/splash_img2"
+        app:layout_constraintBottom_toTopOf="@+id/edEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <EditText
@@ -26,12 +37,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginStart="8dp"
+        android:padding="13dp"
         android:hint="Email"
+        android:background="@drawable/edit_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="0.424" />
+
 
     <EditText
         android:id="@+id/edPassword"
@@ -39,26 +53,63 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginStart="8dp"
+        android:background="@drawable/edit_background"
         android:hint="Password"
+        android:padding="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/edEmail"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.156" />
+
 
     <Button
         android:id="@+id/btnGoUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go"
+        android:background="@drawable/btn_background"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="Signup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edPassword"
-        app:layout_constraintVertical_bias="0.774"
+        app:layout_constraintVertical_bias="0.454"
         tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoUp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/btn_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_google_icon" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_and" />
+
+        <ImageButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_facbook_icon" />
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
