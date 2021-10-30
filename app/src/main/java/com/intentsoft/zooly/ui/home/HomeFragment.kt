@@ -1,4 +1,4 @@
-package com.intentsoft.zooly.ui
+package com.intentsoft.zooly.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/homeFragment2"
-        android:name="com.intentsoft.zooly.ui.HomeFragment"
+        android:name="com.intentsoft.zooly.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.intentsoft.zooly.ui.MapsFragment"
+        android:name="com.intentsoft.zooly.ui.home.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" />
     <fragment
