@@ -3,17 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.31476449275362317" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31476449275362317" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.31476449275362317" />
-        <entry key="app/src/main/res/layout/fragment_registration.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_sign.xml" value="0.31476449275362317" />
-        <entry key="app/src/main/res/layout/fragment_sigup.xml" value="0.31476449275362317" />
-        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.3734375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Zooly/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Zooly/app/src/main/res/layout/fragment_detect.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Zooly/app/src/main/res/xml/provider_paths.xml" value="0.1213768115942029" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
