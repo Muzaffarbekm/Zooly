@@ -1,11 +1,12 @@
-package com.intentsoft.zooly
+package com.intentsoft.zooly.ui.registration
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.intentsoft.zooly.R
 
-class MainActivity : AppCompatActivity() {
+class Login_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login_page)
     }
 }
