@@ -87,6 +87,6 @@
         android:layout_margin="16dp"
         android:drawableLeft="@drawable/ic_camera"
         android:text="@string/tv_take_photo"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"/>
 
 </RelativeLayout>

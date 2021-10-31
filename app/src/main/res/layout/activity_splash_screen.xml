@@ -8,24 +8,20 @@
     tools:context=".ui.registration.SplashScreen">
 
 
-    <com.synnapps.carouselview.CarouselView
-        android:id="@+id/carouselView"
+
+
+
+    <ImageView
+        android:id="@+id/img"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        app:fillColor="#FFFFFFFF"
+        android:src="@drawable/splash_img2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.241"
-        app:pageColor="#00000000"
-        app:radius="6dp"
-        app:slideInterval="3000"
-        app:strokeColor="#FF777777"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
-
+        app:layout_constraintVertical_bias="0.241"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -33,32 +29,32 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="“Zooly is great app that can \n change thousands of \n endangered animals“ "
+        android:text="“Zooly is great app that can \n change thousands \n of  endangered \n animals“ "
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/carouselView"
+        app:layout_constraintTop_toBottomOf="@+id/img"
         app:layout_constraintVertical_bias="0.0" />
 
 
-    <Button
-        android:id="@+id/btnSKIP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/btn_background"
-        android:text="Skip"
-        android:textSize="20dp"
-        android:paddingStart="100dp"
-        android:paddingEnd="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints" />
+    <!--    <Button-->
+<!--        android:id="@+id/btnSKIP"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:background="@drawable/btn_background"-->
+<!--        android:text="Skip"-->
+<!--        android:textSize="20dp"-->
+<!--        android:paddingStart="100dp"-->
+<!--        android:paddingEnd="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

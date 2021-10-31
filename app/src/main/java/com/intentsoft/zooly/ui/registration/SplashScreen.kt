@@ -19,14 +19,18 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
 
-        carouselView.pageCount = sampleImages.size
-        carouselView.setImageListener { position, imageView ->
-            imageView.setImageResource(sampleImages[position])
-        }
+//        carouselView.pageCount = sampleImages.size
+//        carouselView.setImageListener { position, imageView ->
+//            imageView.setImageResource(sampleImages[position])
+//        }
 
-        btnSKIP.setOnClickListener {
-            startActivity(Intent(this, Login_page::class.java))
-        }
+        Handler().postDelayed({
+            val intent = Intent(this, Login_page::class.java)
+            startActivity(intent)
+            finish()
+        }, 1500)
+
+
 
     }
 }
